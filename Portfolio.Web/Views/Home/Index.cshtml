@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Portfolio.Web.Models.Article>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<main>
+    <h2>Latest posts</h2>
+    @foreach (var article in Model)
+    {
+        <article onclick="viewArticle(@article.ID)">
+            <div>
+                <div>
+                    <h3>@article.Title</h3>
+                    <p>@article.Date.ToString("dd/MM/yyyy")</p>
+                </div>
+
+                <img class="teaser-img" src="~/images/articles/@(article.ID).png" alt="">
+            </div>
+            <p>@article.SubTitle</p>
+            <a href="">Read more</a>
+
+
+        </article>
+    }
+
+</main>
+<aside>
+    <form id="search">
+        <input type="text" id="searchInput" placeholder="Search blog posts">
+        <input class="" type="submit" id="searchButton" value="">
+    </form>
+
+    <h2>Tags</h2>
+    <ul id="tags">
+        <li><a href="#">hackaton</a></li>
+        <li><a href="#">ctf</a></li>
+        <li><a href="#">seminar</a></li>
+        <li><a href="#">voca</a></li>
+        <li><a href="#">axxes</a></li>
+        <li><a href="#">delaware</a></li>
+        <li><a href="#">rodger</a></li>
+        <li><a href="#">howest</a></li>
+        <li><a href="#">ku leuven</a></li>
+    </ul>
+
+    <h2>Activity</h2>
+    <div id="activities">
+        <div>
+            <img src="~/images/profilepic.png" alt="">
+            <p><time>10:00</time>: <span>Jesse</span> posted <a href="">Visit to America</a></p>
+        </div>
+        <div>
+            <img src="~/images/profilepic.png" alt="">
+            <p><time>10:00</time>: <span>Jesse</span> commented on <a href="">Visit to America</a></p>
+        </div>
+    </div>
+</aside>

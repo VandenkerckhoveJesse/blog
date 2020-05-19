@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jesse\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jesse\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Portfolio.-1085232545.00" t="ExcludeRecursive" />
+    <e p="D:\Code\Portfolio" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Portfolio.sln" t="IncludeFlat" />
+      <e p="Portfolio.Web" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ArticlesController.cs" t="Include" />
+          <e p="GalleryController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="PortfolioContext.cs" t="Include" />
+          <e p="PortfolioInitializer.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200223161906_InitialCreate.cs" t="Include" />
+          <e p="20200223161906_InitialCreate.Designer.cs" t="Include" />
+          <e p="PortfolioDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Article.cs" t="Include" />
+          <e p="ErrorViewModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Portfolio.Web.AssemblyInfo.cs" t="Include" />
+              <e p="Portfolio.Web.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Portfolio.Web.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="jessevdk - Web Deploy.pubxml" t="Include" />
+            <e p="jessevdk - Web Deploy1.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Articles" t="Include">
+            <e p="Details.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Gallery" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="main.css" t="Include" />
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="articlegallery" t="Include">
+              <e p="America" t="Include">
+                <e p="Bus.jpg" t="Include" />
+                <e p="Cruise.jpg" t="Include" />
+                <e p="Fitbit.jpg" t="Include" />
+                <e p="GoldenGate.jpg" t="Include" />
+                <e p="Mountains.jpg" t="Include" />
+                <e p="Selfie.jpg" t="Include" />
+                <e p="Top.jpg" t="Include" />
+              </e>
+              <e p="ndc" t="Include">
+                <e p="Call.png" t="Include" />
+                <e p="Chat.png" t="Include" />
+              </e>
+              <e p="poland" t="Include">
+                <e p="Arrival.jpg" t="Include" />
+                <e p="Bowling.jpg" t="Include" />
+                <e p="Eating.jpg" t="Include" />
+                <e p="Parting.jpg" t="Include" />
+                <e p="Selfie.jpg" t="Include" />
+                <e p="Shots.jpg" t="Include" />
+                <e p="Working.jpg" t="Include" />
+              </e>
+            </e>
+            <e p="Articles" t="Include">
+              <e p="1.png" t="Include" />
+              <e p="10.png" t="Include" />
+              <e p="11.png" t="Include" />
+              <e p="2.png" t="Include" />
+              <e p="3.png" t="Include" />
+              <e p="4.png" t="Include" />
+              <e p="5.png" t="Include" />
+              <e p="6.png" t="Include" />
+              <e p="7.png" t="Include" />
+              <e p="8.png" t="Include" />
+              <e p="9.png" t="Include" />
+            </e>
+            <e p="Gallery" t="Include">
+              <e p="1.png" t="Include" />
+              <e p="3.png" t="Include" />
+            </e>
+            <e p="jump.jpg" t="Include" />
+            <e p="profilepic.png" t="Include" />
+            <e p="search-icon.png" t="Include" />
+            <e p="tutorial" t="Include">
+              <e p="1-folder.png" t="Include" />
+              <e p="10-stub-creatie.png" t="Include" />
+              <e p="11-functie-oproep.png" t="Include" />
+              <e p="12-client-oproepen.png" t="Include" />
+              <e p="2-package.PNG" t="Include" />
+              <e p="3-service-setup.png" t="Include" />
+              <e p="4-service-definition.png" t="Include" />
+              <e p="5-service-messages.png" t="Include" />
+              <e p="6-service-result.png" t="Include" />
+              <e p="7-service-descriptors.png" t="Include" />
+              <e p="8-functie-implementatie.png" t="Include" />
+              <e p="9-server-startup.png" t="Include" />
+            </e>
+          </e>
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

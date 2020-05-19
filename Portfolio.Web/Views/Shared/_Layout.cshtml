@@ -1,0 +1,35 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Portfolio.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/main.css" />
+</head>
+<body>
+    <header>
+        <div>
+            <img id="profilepic" src="~/images/profilepic.png" alt="Image of Jesse Vandenkerckhove">
+            <h1 id="title">Jesse's Blog</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <!--a href="" id="login">Login</-->
+    </header>
+    <section>
+        @RenderBody()
+    </section>
+    <footer></footer>
+    @RenderSection("scripts", required: false)
+    <script src="~/js/site.js" asp-file-version="true"></script>
+</body>
+</html>

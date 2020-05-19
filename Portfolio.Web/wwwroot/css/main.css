@@ -1,0 +1,259 @@
+/*#3fc0ff*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(150,150,150,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(150,150,150,1);
+    box-shadow: 0px 0px 10px 1px rgba(150,150,150,1);
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(0, 0, 0, 0.02);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#profilepic{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    border-radius: 100%;
+    display: inline;
+
+}
+nav ul{
+    margin: 0;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+#title{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 40px;
+    margin-left: 5px;
+}
+
+nav ul li{
+    height: 100%;
+    font-weight: 300;
+    margin-left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 5px rgba(255, 255, 255, 0);
+    transition: 0.5s border-bottom-color;
+}
+
+nav ul li:before{
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 19px;
+    height: 46px;
+    border-left:1px solid #707070;
+}
+
+nav ul li:hover{
+    border-bottom: solid 5px #a7a7a7;
+}
+
+#login{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-decoration: none;
+    color: black;
+    //border: 1px solid black;
+    padding: 10px;
+    border-radius: 100px;
+    transition: 0.8s color;
+    position: relative;
+    overflow: hidden;
+}
+
+#login:hover{
+    color: white;
+}
+
+#login:before{
+    content: "";
+    position: absolute;
+
+    left:0;
+    top:0;
+    width: 0%;
+    height: 100%;
+    background: #3b3b3b;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 150px;
+}
+
+#login:hover:before{
+    width: 100%;
+}
+
+section{
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+}
+
+main, aside{
+    padding: 20px;
+}
+
+main{
+    display: inline-block;
+    width: 70%;
+}
+
+article{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+article div{
+    position:  relative;
+    z-index: 1;
+}
+
+article div div {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    margin: 10px;
+}
+
+h3{
+    margin: 5px;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+article div img{
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+aside{
+    display: inline-block;
+    width: 30%;
+}
+
+h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#tags{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+#tags li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 15px;
+    padding: 2px;
+    margin: 2px;
+    border: #707070 1px solid;
+    border-radius: 2px;
+}
+
+#search{
+    height: 30px;
+    width: 250px;
+    margin-bottom: 15px;
+    padding-bottom: 2px;
+    border: 0px solid #9f9f9f;
+    border-bottom-width: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#searchInput{
+    font-size: 1.3rem;
+    width: 100%;
+    border-width: 0px;
+}
+
+#searchButton {
+    background-color: rgba(0, 0, 0, 0);
+    background: url("../images/search-icon.png") no-repeat center center;
+    background-size: contain;
+    border-width: 0;
+    min-width: 30px;
+    height: 30px;
+}
+
+#activities div {
+    display: flex;
+    align-items: center;
+}
+
+#activities img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: inline;
+    border-radius: 100px;
+}
+
+#activities p span{
+    font-weight: 600;
+}
+
+
+.teaser-img {
+    transition: filter .4s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+article:hover .teaser-img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+header nav ul li a {
+    color :black;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.galleryImg {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}

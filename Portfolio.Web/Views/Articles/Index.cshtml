@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Portfolio.Web.Models.Article>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <main style="width:100%">
+
+        <h2>Articles</h2>
+        @foreach (var article in Model)
+        {
+            <article onclick="viewArticle(@article.ID)">
+                <div>
+                    <div>
+                        <h3>@article.Title</h3>
+                        <p>@article.Date.ToString("dd/MM/yyyy")</p>
+                    </div>
+
+                    <img class="teaser-img" src="~/images/articles/@(article.ID).png" alt="">
+                </div>
+                <p>@article.SubTitle</p>
+                <a href="">Read more</a>
+
+
+            </article>
+        }
+    </main>
